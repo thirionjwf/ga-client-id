@@ -11,4 +11,4 @@ This is a [react](https://react.dev/) web application.
 1. Ensure `git` and `node` are installed.
 2. Clone this project with `git clone git@github.com:thirionjwf/ga-client-id.git`.
 3. Install pre-requisites (run `npm install`).
-4. Start the web server (run `npm start`):
+4. Start the web server (run `npm start`).
