@@ -5,6 +5,8 @@ const CLIENT_ID_KEY = 'client_id';
 const THIRTY_DAYS_IN_MILLISECONDS = 2592000000;
 const GA_TRACKING_ID = 'UA-XXXXXXXXX-X';
 
+ReactGA.initialize(GA_TRACKING_ID)
+
 function checkForClientId(setClientId) {
   const localStorageClientId = localStorage.getItem(CLIENT_ID_KEY);
 
